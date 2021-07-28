@@ -74,6 +74,7 @@ body{
     padding-left: 23px;
     color: #fff;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .google_image {
