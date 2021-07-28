@@ -1,24 +1,30 @@
-body {
-    background-color: brown;
+body{
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+    height: 100vh;
 }
-
 
 #head {
     background-color: chartreuse;
+    height: 25vh;
 }
 
 #google_image {
     background-color: coral;
+    height: 25vh;
 }   
 
 #search {
     background-color: cyan;
+    height: 25vh;
 }
 
 #offered {
     background-color: darkblue;
+    height: 25vh;
 }
 
 #footer {
     background-color: pink;
+    height: 25vh;
 }
