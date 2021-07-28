@@ -1,30 +1,96 @@
 body{
-    display: grid;
-    grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
-    height: 100vh;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color:#222;
+    background: #fff;
 }
 
-#head {
-    background-color: chartreuse;
-    height: 25vh;
+#root {
+    display:flex;
+    flex-direction: column;
+    height: 100%;
 }
 
-#google_image {
-    background-color: coral;
-    height: 25vh;
+.main {
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: flex-end;
+    padding: 6px;
+    height: 60px;
+}
+
+.head_1 {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.head_2 , .head_2_profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding-right: 10px;
+}
+
+.head_2_profile {
+    position: relative;
+}
+
+.gmail, .head_2_images, .svg_button, .sign_in {
+    padding-right: 15px;
+}
+
+.svg_button {
+    width:30px;
+}
+
+.sign_in_button {
+    display: inline-block;
+    font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #1a73e8;
+    border:1px solid transparent;
+    padding-top: 9px;
+    padding-right: 23px;
+    padding-bottom: 9px;
+    padding-left: 23px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.google_image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100%-560px);
 }   
 
-#search {
-    background-color: cyan;
-    height: 25vh;
+.search {
+    padding: 20px;
+    max-height: 160px;
 }
 
-#offered {
-    background-color: darkblue;
-    height: 25vh;
-}
-
-#footer {
-    background-color: pink;
-    height: 25vh;
+.offered {
+    flex-grow: 1;
 }
