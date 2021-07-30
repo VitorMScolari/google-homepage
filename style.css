@@ -238,3 +238,26 @@ a:hover {
     cursor: pointer;
     text-decoration: underline;
 }
+
+.search_bar:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 3px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05)
+
+}
+
+.google_search_button:hover, .feeling_lucky:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 3px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05)
+}
