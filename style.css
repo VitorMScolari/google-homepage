@@ -234,6 +234,7 @@ html, body{
 }
 
 a {
+    color: rgba(0,0,0,0.87);
     opacity: 0.75;
     text-decoration: none;
 }
