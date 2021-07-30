@@ -16,12 +16,12 @@ html, body{
     overflow:auto;
 }
 
-/*
+
 .main {
     flex-shrink: 0;
     box-sizing: border-box;
 }
-*/
+
 .head {
     display: flex;
     flex-direction: row;
