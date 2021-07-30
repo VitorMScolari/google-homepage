@@ -24,7 +24,7 @@ body {
 #root {
     display:flex;
     flex-direction: column;
-    min-height: 93.7%; 
+    min-height: 93.5%; 
 }
 
 
@@ -217,7 +217,7 @@ body {
     visibility: visible;
     position: relative;
     width:100%;
-    min-height:6.3%;
+    min-height:6.5%;
 }
 
 .about{
@@ -274,7 +274,7 @@ a:hover {
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) {
     .bottom {
         display: flex;
         justify-content: space-evenly;
