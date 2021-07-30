@@ -12,7 +12,8 @@ html, body{
 #root {
     display:flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 94.5%;
+    overflow:auto;
 }
 
 /*
@@ -84,7 +85,7 @@ html, body{
     align-items: center;
     justify-content: center;
     background-size: contain;
-    min-height: 500px;
+    min-height: 350px;
     max-height: 500px;
     max-width: 100%;
     height: calc(100%-560px);
@@ -92,7 +93,7 @@ html, body{
 
 .google_image {
     position: relative;
-    top: 150px;
+    top: 55px;
     padding-top: 3%;
 }
 
@@ -202,8 +203,11 @@ html, body{
     justify-content: space-between;
     vertical-align: middle;
     line-height: 40px;
-    margin-top: 340px;
+/*    margin-top: 27.5%; */
     visibility: visible;
+    position: relative;
+    width:100%;
+    min-height:5.5%;
 }
 
 .about{
@@ -216,14 +220,14 @@ html, body{
 .terms {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottom_links {
-    margin:auto;
     padding: 10px;
 }
+
 
 .offered {
     flex-grow: 1;
@@ -260,4 +264,13 @@ a:hover {
                 0 0 5px rgba(0, 0, 0, 0.05),
                 0 0 4px rgba(0, 0, 0, 0.05),
                 0 0 5px rgba(0, 0, 0, 0.05)
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .bottom {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
 }
